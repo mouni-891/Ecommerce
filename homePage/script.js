@@ -164,8 +164,8 @@ function checkAuth() {
   if (!isLoggedIn) {
     productsGrid.innerHTML = `
             <div style="text-align:center; padding:40px; color:#ccc;">
-                <h2>Please log in to view products</h2>
-                <a href="./loginOutPage/index.html" style="color:#4f8be8; text-decoration:underline;">
+                <h2>Please login to view products</h2>
+                <a href="../loginOutPage/index.html" style="color:#4f8be8; text-decoration:underline;">
                     Go to Login
                 </a>
             </div>

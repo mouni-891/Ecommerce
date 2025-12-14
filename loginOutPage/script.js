@@ -52,10 +52,10 @@ function togglePassword() {
     
     if (passwordField.type === 'password') {
         passwordField.type = 'text';
-        toggleIcon.innerHTML = '<img src="hideIcon.png" width="80"/>';
+        toggleIcon.innerHTML = '<img src="Images/hideIcon.png" width="80"/>';
     } else {
         passwordField.type = 'password';
-        toggleIcon.innerHTML = '<img src="eye.png" width="80"/>';
+        toggleIcon.innerHTML = '<img src="Images/eye.png" width="80"/>';
     }
 }
 
@@ -110,7 +110,7 @@ function handleLogin(e) {
         
         localStorage.setItem('isLoggedIn', 'true');
         // Success simulation
-         window.location.href = "../index.html";
+         window.location.href = "../homePage/index.html";
         // Replace with actual redirect:
         // window.location.href = '/dashboard';
     }, 2000);
